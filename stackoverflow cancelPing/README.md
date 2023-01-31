@@ -1,6 +1,6 @@
-# D-link DIR820LA1_FW105B03 Command injection vulnerability
+# D-link DIR820LA1_FW105B03 Stack Overflow vulnerability
 
-A command injection vulnerability exists in pingV4Msg of component "/ping.ccp" of D-Link DIR820LA1_FW105B03, allowing an attacker to elevate privileges to root via a crafted payload.
+A stack overflow  vulnerability exists in pingV4Msg of component "/ping.ccp" of D-Link DIR820LA1_FW105B03, allowing an attacker to elevate privileges to root via a crafted payload.
 
 ## Overview
 
@@ -15,7 +15,7 @@ DIR820LA1_FW105B03
 
 The file directory where the vulnerability is located:`/sbin/ncc2`
 
-The `sub_49E5B0` function obtains the content of the variable `ping_addr`  from the request of `/ping.ccp`, and splicing the parameters of the system causes the command to be executed.
+The `sub_49E5B0` function obtains the content of the variable `nextPage`  from the request of `/ping.ccp`, use strcpy to copy input data. The length of the string is not considered, and the stack overflows when the input is too long.
 
 ![vuln1](vuln1.png)
 
