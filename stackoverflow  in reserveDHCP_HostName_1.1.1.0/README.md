@@ -71,3 +71,12 @@ ccp_act=set&old_ip=192.168.0.1&old_mask=255.255.255.0&new_ip=192.168.0.1&new_mas
 
 
 Finally, you can write exp, which can achieve a very stable effect of obtaining the root shell.
+
+
+
+## Disclosure
+
+- Feb 7, 2023:Public disclosure
+
+- Mar 7, 2023:Assign CVE number CVE-2023-25283
+

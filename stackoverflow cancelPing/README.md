@@ -58,3 +58,11 @@ ccp_act=cancelPing&nextPage=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 ```
 
 Finally, you can write exp, which can achieve a very stable effect of obtaining the root shell.
+
+
+
+## Disclosure
+
+- Feb 7, 2023:Public disclosure
+
+- Mar 7, 2023:Assign CVE number CVE-2023-25281
